@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+body{
+    overflow-y: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: white;
+    padding: 1.4em;
+    margin-top: 1em;
+   
+   
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
+    
+
+
+#logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+      
+}
+
+#login{
+   background-color: blue;
+   color: white;
+   text-transform: uppercase;
+   border-radius: 5px;
+   padding: 0.7em;
+   border: none;
+}
+
+#login:hover{
+    background-color: rgb(0, 217, 255);
+    
+ }
+
+ #register:hover{
+    color: rgb(0, 217, 255);
+ }
+
+li a{
+    text-decoration: none;
+    color: rgb(12, 16, 226);
+    font-size: 1.3em;
+    padding: 0.5em 1.2em;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+li a:hover{
+    color: rgb(0, 217, 255);
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(12, 16, 226);
+    font-size: 1.2em;
+    /* padding: 1.4em; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+    
+}
+
+/* body header */
+#header{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: auto;
+    width: 95%;
+    /* padding: 1em; */
+    
+}
+
+#content{
+    /* display: flex; */
+    width: 80%;
+    padding: 1em;
+
+}
+
+#content h3, h2, p {
+    
+    font-family: 'Times New Roman', Times, serif;
+    /* padding: 1em; */
+    
+}
+#content h2{
+    font-size: 1.9em;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    /* width: 75%; */
+    text-align: center;
+    /* margin: 1em 0; */
+}
+
+
+#content button{
+    padding: 1em;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    margin: 2em 0; 
+}
+
+#content button:hover{
+    background-color: rgb(42, 65, 92);
+    color: white;
+}
+#image{
+    width: 20%;
+    
+}
+
+#image img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#items h2{
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+}
+
+#items button {
+    padding: 1em;
+    background-color: black;
+    color: white;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    margin: 1.3em 32em; 
+    align-items: center;
+    align-content: center;  
+}
+#cards{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px ;
+    /* grid-template-rows: 150px; */
+    column-gap: 1.2em ;
+    padding: 2em;
+    margin: 1.2em 4.5em;
+    /* overflow-y: hidden; */
+}
+
+#card{
+    border: 1px solid black;
+    margin: auto;
+}
+#card img{
+    width: 100%;
+    height: 40%;
+    
+}
+
+
+
+#contentss h2, p{
+    padding: 0.5em;
+    text-align: center;
+    width: 100%;
+    /* margin: auto; */   
+}
+#middle-body{
+    display: flex;
+    background-color: rgb(5, 61, 107);
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+
+}
+#middle{
+    color: white;
+    padding: 1em;
+    display: flex; 
+}
+
+#middle h2{
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    width: 75%;
+}
+
+#middle button{
+    padding: 1em;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    margin: 2em 0; 
+}
+
+
+#middle-image img{
+    
+    /* margin-left: 15em; */
+    width: 100%;
+    height: 100%;
+    
+    /* transform: skew(45deg); */
+}
+
+#middle-image{
+    width: 23%;
+}
+
+
+#container{
+    background-color: rgb(14, 129, 158);
+    box-shadow: 2px 3px 2px 3px rgb(15, 54, 54);
+    color: white;
+    padding: 2em;
+    width: 300px;
+    border-radius: 3px;
+    align-content: center;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    /* margin: -25px 0 0 -25px; */
+}
+h3{
+    text-align: center;
+}
+
+
+#form-input{
+    border-radius: 8px;
+    /* display: block; */
+}
+input{
+    width: 100%;
+   padding: 0.8rem;
+   /* color: white; */
+   margin: 0.6em;
+   border-radius: 5px;
+   border: none;
+   
+
+}
+input:focus{
+    outline: none;
+}
+
+
+#container button{
+     border: 2px solid rgb(31, 172, 190);
+    background-color: rgb(31, 172, 190);
+    width: 40%;
+    padding: 0.6em;
+    margin: 0.4em;
+    margin-bottom: 2em;
+    border-radius: 5px; 
+
+}
+
+#container button a{
+    text-decoration: none;
+    color: white;
+   
+}
+
